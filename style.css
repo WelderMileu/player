@@ -1,0 +1,131 @@
+*,
+html,
+#root {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	font-family: 'calibri', sans-serif;
+	font-size: 1.2rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 50%;
+	height: 50%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .player {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .player .album img {
+	width: 300px;
+	height: 300px;
+}
+
+.container .player .actions {
+	width: 100%;
+	margin-top: 40px;
+}
+
+.container .player .actions .vol {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container .player .actions .vol p {
+	width: 50px;
+	height: 50px;	
+	background-color: gray;
+	color: #fff;
+	font-size: 1.5rem;
+	border-radius: 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .player .actions .vol i {
+	font-size: 2rem;
+	color: gray;
+}
+
+.container .options {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	border-radius: 5px;
+}
+
+.container .options .position {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-weight: 100;
+}
+
+.container .options .music {
+	margin-top: 30px;
+}
+
+.container .options .music p {
+	font-size: 2rem;
+	user-select: none;
+}
+
+.container .options .controls .controls-buttom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.container .options .controls .controls-buttom i {
+	width: 50px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, .3);
+	color: #fff;
+	border-radius: 100px;
+	
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.container .options .controls .controls-range-time {
+	width: 100%;
+	margin-top: 25px;
+}
+
+input[type='range'] {
+	cursor: pointer;
+}

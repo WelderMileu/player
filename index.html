@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>player</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="player">
+				<div class="album">
+					<img id="album-image">
+				</div>
+				<div class="actions">
+					<div class="vol">
+						<audio id="actions-audio"></audio>
+						<i class="fa fa-volume-up" aria-hidden="true"></i>
+						<!-- <i class="fa fa-volume-down" aria-hidden="true"></i> -->
+						<!-- <i class="fa fa-volume-off" aria-hidden="true"></i> -->
+
+						<p id="vol-cont">0</p>
+						<input id="vol-audio" type="range" min="0" max="100">
+					</div>
+				</div>
+			</div>
+
+			<div class="options">
+				<div class="position">
+					2/20
+				</div>
+				<div class="music">
+					<p class="music-title"></p>
+				</div>
+				<div class="controls">
+					<div class="controls-buttom">
+						<i class="fa fa-backward" aria-hidden="true"></i>
+						<!-- <i class="fa fa-play" aria-hidden="true"></i> -->
+						<i id="paused" class="fa fa-pause" aria-hidden="true"></i>
+						<i class="fa fa-forward" aria-hidden="true"></i>
+					</div>
+					<div class="controls-range-time">
+						<input id="time-audio" type="range">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
