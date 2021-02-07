@@ -92,6 +92,11 @@ const actions = {
 		}, 1000)
 	},
 
+	musicChange() {
+		let col = $('#time-audio').value;
+		$('#actions-audio').currentTime = col;
+	},
+
 	volumeAudio() {
 		let valor = $('#vol-audio').value;
 		let time = $('#actions-audio').volume = `0.${valor}`;
@@ -105,6 +110,7 @@ actions.musicPosition();
 actions.timeMusic();
 actions.volumeAudio();
 
+$('#time-audio').addEventListener('change', actions.musicChange);
 $('.fa-forward').addEventListener('click', actions.next);
 $('.fa-backward').addEventListener('click', actions.previus);
 $('#paused').addEventListener('click', actions.pausePlay);
