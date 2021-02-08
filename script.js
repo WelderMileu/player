@@ -5,25 +5,20 @@ let pathMusic = 'assets/audio/';
 
 let musics = [
 	{
-		name: "Quando o que e santo vier",
-		image: pathImage + "quando-o-que-e-santo-vier.jpg",
-		music: pathMusic + "ID2-Quando-o-que-e-Santo-Vier.mp3"
+		name: "Lovers On The Sun ft Sam Martin",
+		image: pathImage + "Lovers_On_The_Sun_ft_Sam_Martin.jpg",
+		music: pathMusic + "Lovers_On_The_Sun_ft_Sam_Martin.mp3"
 	},
 	{
-		name: "Sonho de Deus",
-		image: pathImage + "sonho-de-deus.jpg",
-		music: pathMusic + "ID2-Sonho-de-Deus.mp3"
+		name: "Avicii - Never Leave Me ft. Joe Janiak",
+		image: pathImage + "Never_Leave_Me_ft_Joe_Janiak.jpg",
+		music: pathMusic + "Never_Leave_Me_ft_Joe_Janiak.mp3"
 	},
 	{
-		name: "Tua Casa",
-		image: pathImage + "tua-casa.jpg",
-		music: pathMusic + "ID2-Tua-Casa.mp3"
+		name: "Avicii - Bad Reputation ft Joe. Janiak",
+		image: pathImage + "Never_Leave_Me_ft_Joe_Janiak.jpg",
+		music: pathMusic + "Bad_Reputation_ft_Joe_Janiak.mp3"
 	},
-	{
-		name: "Ousado Amor",
-		image: pathImage + "ousado-amor.jpg",
-		music: pathMusic + "ousado-amor.mp3"
-	}
 ];	
 
 let initial = 0;
@@ -52,7 +47,7 @@ const actions = {
 	},
 
 	previus () {
-		if(initial < 0) {
+		if(initial > 0) {
 			initial--;
 			actions.insertMusic(initial);
 		} else {

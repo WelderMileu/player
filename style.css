@@ -97,7 +97,7 @@ body {
 }
 
 .container .options .music p {
-	font-size: 2rem;
+	font-size: 1.7rem;
 	user-select: none;
 }
 
@@ -126,6 +126,12 @@ body {
 	margin-top: 25px;
 }
 
-input[type='range'] {
+#time-audio {
 	cursor: pointer;
+	width: 100%;
+}
+
+#vol-audio {
+	cursor: pointer;
+	width: 50%;
 }
