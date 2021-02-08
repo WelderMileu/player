@@ -5,11 +5,6 @@ let pathMusic = 'assets/audio/';
 
 let musics = [
 	{
-		name: "Lovers On The Sun ft Sam Martin",
-		image: pathImage + "Lovers_On_The_Sun_ft_Sam_Martin.jpg",
-		music: pathMusic + "Lovers_On_The_Sun_ft_Sam_Martin.mp3"
-	},
-	{
 		name: "Avicii - Never Leave Me ft. Joe Janiak",
 		image: pathImage + "Never_Leave_Me_ft_Joe_Janiak.jpg",
 		music: pathMusic + "Never_Leave_Me_ft_Joe_Janiak.mp3"
@@ -19,6 +14,11 @@ let musics = [
 		image: pathImage + "Never_Leave_Me_ft_Joe_Janiak.jpg",
 		music: pathMusic + "Bad_Reputation_ft_Joe_Janiak.mp3"
 	},
+	{
+		name: "Avicii - The Days (Subtitulada al Español)",
+		image: pathImage + "The_days.jpg",
+		music: pathMusic + "The_days.mp3"
+	}
 ];	
 
 let initial = 0;
@@ -30,6 +30,7 @@ const actions = {
 		$('#album-image').src = musics[initial].image;
 		$('.music-title').innerHTML = musics[initial].name;
 		$('#actions-audio').src = musics[initial].music;
+		$('body').style.backgroundImage = `url(${musics[initial].image})`;
 		$('#actions-audio').play();
 	},
 

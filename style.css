@@ -16,26 +16,34 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .container {
-	width: 50%;
-	height: 50%;
+	width: 80%;
+	height: auto;
+	padding: 10px;
 
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	background-color: rgba(255, 255, 255, .1);
+	backdrop-filter: blur(10px);
+	position: relative;
 }
 
 .container .player {
-	width: 100%;
+	width: 300px;
 	height: 100%;
 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	/*background-color: orange;*/
 }
 
 .container .player .album img {
@@ -45,7 +53,8 @@ body {
 
 .container .player .actions {
 	width: 100%;
-	margin-top: 40px;
+	margin-top: 20px;
+	margin-bottom: 5px;
 }
 
 .container .player .actions .vol {
@@ -58,7 +67,6 @@ body {
 .container .player .actions .vol p {
 	width: 50px;
 	height: 50px;	
-	background-color: gray;
 	color: #fff;
 	font-size: 1.5rem;
 	border-radius: 100px;
@@ -87,9 +95,10 @@ body {
 
 .container .options .position {
 	position: absolute;
-	top: 20px;
+	top: -50px;
 	right: 20px;
-	font-weight: 100;
+	font-weight: 500;
+	color: #fff;
 }
 
 .container .options .music {
@@ -99,6 +108,8 @@ body {
 .container .options .music p {
 	font-size: 1.7rem;
 	user-select: none;
+	margin-bottom: 50px;
+	color: #fff;
 }
 
 .container .options .controls .controls-buttom {
@@ -135,3 +146,32 @@ body {
 	cursor: pointer;
 	width: 50%;
 }
+
+
+@media screen and (max-width: 900px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.container .options {
+		margin-top: 10px;
+	}
+
+	.container .options .music p {
+		font-size: 1.5rem;
+	}
+
+	.container .options .position {
+		top: -290px;
+		right: 0px;
+		font-weight: 500;
+		color: #fff;
+	}
+
+	.container .player .album img {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+
