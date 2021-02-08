@@ -58,7 +58,7 @@ body {
 }
 
 .container .player .actions .vol {
-	display: flex;
+	display: none;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
@@ -110,6 +110,7 @@ body {
 	user-select: none;
 	margin-bottom: 50px;
 	color: #fff;
+	text-align: center;
 }
 
 .container .options .controls .controls-buttom {
