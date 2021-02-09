@@ -1,0 +1,38 @@
+{
+	"short_name":"playlist",
+	"name":"playlist",
+	"icons":[
+		{
+			"src":"assets/icons/64x64.png",
+			"sizes":"64x64",
+			"type":"image/png"
+		},
+		{
+			"src":"assets/icons/128x128.png",
+			"sizes":"128x128",
+			"type":"image/png"
+		},
+		{
+			"src":"assets/icons/256x256.png",
+			"sizes":"256x256",
+			"type":"image/png"
+		},
+		{
+			"src":"assets/icons/512x512.png",
+			"sizes":"512x512",
+			"type":"image/png"
+		}
+	],
+	"start_url":"index.html",
+	"orientation":"portrait",
+	"display":"standalone",
+	"theme_color":"#fff",
+	"background_color":"#fff"
+}
+
+/* "scope":"/usando-pwa/js", */
+/*
+	could not check service worker
+	without a 'start_url' field in
+	the manifest
+*/
