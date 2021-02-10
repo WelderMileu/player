@@ -35,7 +35,7 @@ const actions = {
 		$('#album-image').src = musics[initial].image;
 		$('.music-title').innerHTML = musics[initial].name;
 		$('#actions-audio').src = musics[initial].music;
-		$('#actions-audio').play();
+		actions.play()
 	
 		$('#download-link').href = musics[initial].music;
 	},
@@ -70,18 +70,21 @@ const actions = {
 		$('.position').innerHTML = `${initial + 1}/${musics.length}`;
 	},
 
+	play() {
+		$('#actions-audio').play();
+		$('#paused').classList.add('fa-pause');
+		$('#paused').classList.remove('fa-play');
+	},
+
+	pause() {
+		$('#actions-audio').pause();
+		$('#paused').classList.remove('fa-pause');
+		$('#paused').classList.add('fa-play');
+	},
+
 	pausePlay() {
 		playerPlay === true ? playerPlay = false : playerPlay = true; 
-
-		if (playerPlay) {
-			$('#actions-audio').pause();
-			$('#paused').classList.remove('fa-pause');
-			$('#paused').classList.add('fa-play');
-		} else {
-			$('#actions-audio').play();
-			$('#paused').classList.add('fa-pause');
-			$('#paused').classList.remove('fa-play');
-		}
+		playerPlay ? actions.play()	: actions.pause()
 	},
 
 	timeMusic() {
