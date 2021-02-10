@@ -5,6 +5,11 @@ let pathMusic = 'assets/audio/';
 
 let musics = [
 	{
+		name: "ID2 - Aos Pés da Cruz",
+		image: pathImage + "Aos_Pés_da_Cruz.jpg",
+		music: pathMusic + "Aos_Pés_da_Cruz.mp3"
+	},
+	{
 		name: "Avicii - Never Leave Me ft. Joe Janiak",
 		image: pathImage + "Never_Leave_Me_ft_Joe_Janiak.jpg",
 		music: pathMusic + "Never_Leave_Me_ft_Joe_Janiak.mp3"
