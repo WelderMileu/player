@@ -35,8 +35,9 @@ const actions = {
 		$('#album-image').src = musics[initial].image;
 		$('.music-title').innerHTML = musics[initial].name;
 		$('#actions-audio').src = musics[initial].music;
-		$('body').style.backgroundImage = `url(${musics[initial].image})`;
 		$('#actions-audio').play();
+	
+		$('#download-link').href = musics[initial].music;
 	},
 
 	next() {
@@ -90,6 +91,10 @@ const actions = {
 
 			$('#time-audio').max = dur;
 			$('#time-audio').value = time;
+
+			if (dur === time) {
+				actions.next()
+			}
 		}, 1000)
 	},
 
