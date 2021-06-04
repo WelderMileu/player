@@ -23,6 +23,11 @@ let musics = [
 		name: "Avicii - The Days (Subtitulada al Español)",
 		image: pathImage + "The_days.jpg",
 		music: pathMusic + "The_days.mp3"
+	},
+	{
+		name: "Legends Never Die",
+		image: pathImage + "Legends_Never_Die.jpg",
+		music: pathMusic + "Legends_Never_Die.mp3"
 	}
 ];	
 
