@@ -79,12 +79,14 @@ const actions = {
 		$('#actions-audio').play();
 		$('#paused').classList.add('fa-pause');
 		$('#paused').classList.remove('fa-play');
+		$('#paused').style.paddingLeft = 0
 	},
 
 	pause() {
 		$('#actions-audio').pause();
 		$('#paused').classList.remove('fa-pause');
 		$('#paused').classList.add('fa-play');
+		$('#paused').style.paddingLeft = "5px";
 	},
 
 	pausePlay() {
