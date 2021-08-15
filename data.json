@@ -1,0 +1,22 @@
+[
+	{
+		"name" : "Sarah from NY",
+		"image" : "02-Sarah-from-NY-2-300x160.jpg",
+		"audio" : "Sarah-from-NY-MairoVergara.com_.mp3"
+	},
+	{
+		"name" : "Paul and Martha",
+		"image" : "03-Paul-and-Martha-2-300x160.jpg",
+		"audio" : "Paul-and-Martha-MairoVergara.com_.mp3"
+	},
+	{
+		"name" : "My neighbors pet",
+		"image" : "04-My-neighbors-pet-2-300x160.jpg",
+		"audio" : "My-Neighbors-Pets-MairoVergara.com_.mp3"
+	},
+	{
+		"name" : "Frank and Susan",
+		"image" : "05-Frank-and-Susan-2-300x160.jpg",
+		"audio" : "Frank-and-Susan-MairoVergara.com_.mp3"
+	}
+]
