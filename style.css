@@ -157,13 +157,14 @@ body {
 	width: 55px;
 	height: 55px;
 	background-color: #1B1E1F;
-	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8), 
-				inset -1px -1px 5px rgba(0, 0, 0, 0.8);
 
 
 	color: #fff;
 	border-radius: 100px;
+	background-color: transparent;
 	
+	border: 1.5px solid #4c4f50;
+
 	display: flex;
 	justify-content: center;	
 	align-items: center;
@@ -228,14 +229,17 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .anotations .toggle {
-	width: 5px;
+	width: 300px !important;
 	height: 100%;
 	background-color: #1B1E1F;
 
-	position: relative;
+	position: absolute;
 	padding-top: 50px;
 
 	box-shadow: 1px 2px 2px #fff;
+	right: -290px;
+
+	transition: .5s ease-in-out;
 }
 
 .anotations .toggle .content {
@@ -260,13 +264,13 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .anotations .english {
+	width: 10px;
 	position: absolute;
 }
 
 .anotations .english .icon {
 	top: 250px;
 }
-
 
 .anotations .toggle .icon {
 	left: -45px;

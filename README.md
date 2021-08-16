@@ -1,3 +1,2 @@
-- Player de musica usando javascript puro.
+## Studyng english with audio
 
-- Em desenvolvimento.

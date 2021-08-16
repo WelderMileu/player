@@ -127,3 +127,32 @@ $('.fa-forward').addEventListener('click', actions.next);
 $('.fa-backward').addEventListener('click', actions.previus);
 $('#paused').addEventListener('click', actions.pausePlay);
 $('#vol-audio').addEventListener('change', actions.volumeAudio);
+
+// animation of abas
+
+$('.anotations .note .icon').addEventListener('click', () => {
+	if ($('.anotations .note').style.right !== '-290px') {
+		$('.anotations .note').style.right = "-290px"
+		$('.anotations .note').style.zIndex = "3000"
+
+		$('.anotations .english').style.right = "-290px"
+		$('.anotations .english').style.zIndex = "1000"		
+	} else {
+		$('.anotations .note').style.right = "10px"
+		$('.anotations .note').style.zIndex = "3000"
+	}
+	
+});
+
+$('.anotations .english .icon').addEventListener('click', () => {
+	if ($('.anotations .english').style.right !== '-290px') {
+		$('.anotations .english').style.right = "-290px"
+		$('.anotations .english').style.zIndex = "3000"
+
+		$('.anotations .note').style.right = "-290px"
+		$('.anotations .note').style.zIndex = "1000"
+	} else {
+		$('.anotations .english').style.right = "10px"
+		$('.anotations .english').style.zIndex = "3000"		
+	}	
+});
