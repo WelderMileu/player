@@ -1,6 +1,6 @@
 {
-	"short_name":"playlist",
-	"name":"playlist",
+	"short_name":"learning english",
+	"name":"learning english",
 	"icons":[
 		{
 			"src":"assets/icons/64x64.png",
@@ -26,8 +26,8 @@
 	"start_url":".",
 	"orientation":"portrait",
 	"display":"standalone",
-	"theme_color":"#fff",
-	"background_color":"#fff"
+	"theme_color":"#1B1E1F",
+	"background_color":"#1B1E1F"
 }
 
 /* "scope":"/usando-pwa/js", */
