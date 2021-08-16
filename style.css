@@ -219,6 +219,82 @@ input[type="range"]::-webkit-slider-thumb {
 	width: 50%;
 }
 
+.anotations {
+	height: 100vh;
+	position: fixed;
+
+	right: 0;
+	top: 0;
+}
+
+.anotations .toggle {
+	width: 5px;
+	height: 100%;
+	background-color: #1B1E1F;
+
+	position: relative;
+	padding-top: 50px;
+
+	box-shadow: 1px 2px 2px #fff;
+}
+
+.anotations .toggle .content {
+	font-size: 1rem;
+	font-weight: 300;
+	color: #fff;
+
+	padding: 40px;
+
+	height: 100vh;
+
+	overflow-y: scroll;
+	padding-bottom: 100px;
+}
+
+.anotations .note .icon {
+	top: 150px;
+}
+
+.anotations .english {
+	z-index: 1000;
+}
+
+.anotations .english {
+	position: absolute;
+}
+
+.anotations .english .icon {
+	top: 250px;
+}
+
+
+.anotations .toggle .icon {
+	left: -45px;
+
+	position: absolute;
+
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 15px;
+	width: 60px;
+	height: 60px;
+
+
+	z-index: 100000;
+
+	background-color: #1B1E1F;
+
+	border: 1px solid #4c4f50;
+}
+
+.anotations .toggle .icon i {
+	font-size: 1.5rem;
+	color: #fff;
+}
 
 @media screen and (max-width: 900px) {
 	.container {
@@ -234,9 +310,9 @@ input[type="range"]::-webkit-slider-thumb {
 	}
 
 	.container .options .position {
-		top: -280px;
-		right: -15px;
-		font-weight: 500;
+		top: -300px;
+		right: -5px;
+		font-weight: 700;
 		color: #fff;
 	}
 

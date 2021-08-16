@@ -46,7 +46,7 @@ const actions = {
 	},
 
 	musicPosition() {
-		$('.position').innerHTML = `${initial + 1}/${media.length}`;
+		$('.position').innerHTML = `${initial + 1} / ${media.length}`;
 	},
 
 	play() {
