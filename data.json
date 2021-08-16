@@ -2,21 +2,29 @@
 	{
 		"name" : "Sarah from NY",
 		"image" : "02-Sarah-from-NY-2-300x160.jpg",
-		"audio" : "Sarah-from-NY-MairoVergara.com_.mp3"
+		"audio" : "Sarah-from-NY-MairoVergara.com_.mp3",
+		"content" : "I am Sarah. I am from New York. I am a singer. I am 37 years old. I am short and I am thin. I am usually very active, but right now I am tired. I am hungry too. This is Derek. He is from New York too. He is my best friend. He is a musician. He is tall and handsome. He is usually very active too, but right now he is tired. He is also hungry. We are both tired and hungry! But we have a concert tonight, so we are thrilled! ",
+		"annotation" : "Sarah_from_NY"
 	},
 	{
 		"name" : "Paul and Martha",
 		"image" : "03-Paul-and-Martha-2-300x160.jpg",
-		"audio" : "Paul-and-Martha-MairoVergara.com_.mp3"
+		"audio" : "Paul-and-Martha-MairoVergara.com_.mp3",
+		"content" : "We are Paul and Martha. We are married. We are from Chicago. We are teachers. We are calm, happy and funny. We are 43 years old. And we are parents! We have three children: two boys and one girl. They are so cute, and they are very sweet. They are funny and intelligent. They are students. Matt and John are twins, and they are 10 years old. Heather is 6 years old. They are our pride and joy. ",
+		"annotation" : "Paul_and_Martha"
 	},
 	{
 		"name" : "My neighbors pet",
 		"image" : "04-My-neighbors-pet-2-300x160.jpg",
-		"audio" : "My-Neighbors-Pets-MairoVergara.com_.mp3"
+		"audio" : "My-Neighbors-Pets-MairoVergara.com_.mp3",
+		"content" : "My next-door neighbor’s apartment is nice, but it is also very small. And he has three pets in there: a dog, a cat, and a parrot! The dog’s name is John Viviano. It is big, brown, old and grumpy. But it is also very sweet sometimes, when it is in a good mood… The cat’s name is Freddy Frederiksen. It is a white, fluffy Persian, and it is very good at catching mice. It is my favorite non-human neighbor! The parrot is called Gustav Smith Parrotson. It is a very annoying creature: it talks the whole day long! ",
+		"annotation" : "My_neighbors_pets"
 	},
 	{
 		"name" : "Frank and Susan",
 		"image" : "05-Frank-and-Susan-2-300x160.jpg",
-		"audio" : "Frank-and-Susan-MairoVergara.com_.mp3"
+		"audio" : "Frank-and-Susan-MairoVergara.com_.mp3",
+		"content" : "I am Frank. I am an engineer. I am Canadian, and I am 30 years old. I am tall, I am not short. I am not an architect. And I am not American. My friend Susan is short. She is a veterinarian and she is from Argentina. She is not tall, and she is not a dentist. And she is not from England. Are you an engineer too? Oh, you are not an engineer, you are a pilot! You are not from Italy, right? And you are not from Portugal. Where are you from? You are from Argentina! I am glad to meet you. ",
+		"annotation" : "Frank_and_Susan"
 	}
 ]

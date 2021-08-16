@@ -2,6 +2,7 @@ const $ = e => document.querySelector(e);
 
 let pathImage = 'assets/images/';
 let pathAudio = 'assets/audio/';
+let pathAnnotation = 'docs/';
 
 let initial = 0;
 let position;
@@ -11,9 +12,20 @@ let media = []
 
 const actions = {
 	insertMusic(initial) {
-		$('#album-image').src = media[initial].image;
+		
+		fetch(media[initial].annotation)
+			.then(res => res.text())
+			.then(text => {
+				$('.note .content').innerHTML = text;
+			})
+
+
+		$('.english .content').innerHTML = media[initial].content;
 		$('.music-title').innerHTML = media[initial].name;
+
+		$('#album-image').src = media[initial].image;
 		$('#actions-audio').src = media[initial].audio;
+
 		$('#download-link').href = media[initial].audio;
 
 		actions.play()
@@ -104,7 +116,9 @@ fetch('./data.json')
 				let dados = {
 					"name" : elem.name,
 					"image" : pathImage + elem.image,
-					"audio" : pathAudio + elem.audio
+					"audio" : pathAudio + elem.audio,
+					"content" : elem.content,
+					"annotation" : pathAnnotation + elem.annotation
 				}
 
 			 	media.push(dados);
