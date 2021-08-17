@@ -204,17 +204,36 @@ body {
 	margin-top: 25px;
 
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-.container .options .controls .controls-range-time i {
+.container .options .controls .controls-range-time .buttons {
+	width: 100%;
+	margin-top: 30px;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.container .options .controls .controls-range-time .fa {
+	width: 45px;
+	height: 45px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 	color: #fff;
 	font-size: 1.5rem;
-	margin-left: 20px;
+	margin-left: 10px;
 	cursor: pointer;
+	border: 1px solid #4c4f50;
+	border-radius: 5px;
 }
+
 
 input[type="range"] {
 	-webkit-appearance: none;
@@ -348,7 +367,7 @@ input[type="range"]::-webkit-slider-thumb {
 	}
 
 	.container .player .album {
-		margin-top: 30px;
+		margin-top: 100px;
 	}
 
 	.container .player .album img {
