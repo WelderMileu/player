@@ -58,8 +58,8 @@ body {
 }
 
 .container .player .album img {
-	width: 200px !important;
-	height: 200px !important;
+	width: 200px;
+	height: 200px;
 	object-fit: cover;
 
 	border-radius: 10px;
@@ -115,6 +115,27 @@ body {
 	right: 20px;
 	font-weight: 500;
 	color: #fff;
+
+	display: flex;
+}
+
+.container .options .position p {
+	width: 35px;
+	height: 35px;
+	border: 1px solid #4c4f50;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .options .position p:nth-child(1) {
+	border-right: none;
+	border-top-left-radius: 7px;
+}
+
+.container .options .position p:nth-child(2) {
+	border-bottom-right-radius: 7px;
 }
 
 .container .options .music {
@@ -179,7 +200,7 @@ body {
 }
 
 .container .options .controls .controls-range-time {
-	width: 120%;
+	width: 100%;
 	margin-top: 25px;
 
 	display: flex;
@@ -262,7 +283,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .anotations .note .icon {
-	top: 150px;
+	top: 170px;
 }
 
 .anotations .english {
@@ -320,15 +341,15 @@ input[type="range"]::-webkit-slider-thumb {
 	}
 
 	.container .options .position {
-		top: -300px;
-		right: -5px;
+		top: -240px;
+		right: 20px;
 		font-weight: 700;
 		color: #fff;
 	}
 
 	.container .player .album img {
-		width: 150px;
-		height: 150px;
+		width: 120px;
+		height: 120px;
 		margin-top: 20px;
 	}
 }

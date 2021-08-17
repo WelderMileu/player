@@ -17,7 +17,7 @@ const actions = {
 			.then(res => res.text())
 			.then(text => {
 				$('.note .content').innerHTML = text;
-			})
+			});
 
 
 		$('.english .content').innerHTML = media[initial].content;
@@ -58,7 +58,7 @@ const actions = {
 	},
 
 	musicPosition() {
-		$('.position').innerHTML = `${initial + 1} / ${media.length}`;
+		$('.position').innerHTML = `<p>${initial + 1}</p>  <p>${media.length}</p>`;
 	},
 
 	play() {
