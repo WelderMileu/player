@@ -30,6 +30,7 @@ const actions = {
 		$('#download-link').href = media[initial].audio;
 
 		actions.play()
+		actions.musicPosition()
 	},
 
 	next() {
@@ -108,7 +109,7 @@ const actions = {
 	volumeAudio() {
 		let valor = $('#vol-audio').value;
 		let time = $('#actions-audio').volume = `0.${valor}`;
-		
+	
 		$('#vol-cont').innerHTML = valor;
 	}
 };
