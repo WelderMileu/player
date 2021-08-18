@@ -177,14 +177,17 @@ $('.anotations .english .icon').addEventListener('click', () => {
 	}	
 });
 
-$('.fa-undo').addEventListener('click', () => {
+$('.fa-sync-alt').addEventListener('click', () => {
 	if (loop) {
 		loop = false;
-		$('.fa-undo').style.color = "#fff"
-		$('.fa-undo').style.border = "1px solid #4c4f50"
+		$('.fa-sync-alt').style.color = "#fff"
+		$('.fa-sync-alt').style.backgroundColor = "transparent"
+		$('.fa-sync-alt').style.border = "1px solid #4c4f50"
+
 	} else {
 		loop = true;
-		$('.fa-undo').style.color = "#68E1FD"
-		$('.fa-undo').style.border = "2px solid #68E1FD"
+		$('.fa-sync-alt').style.color = "#1B1E1F"
+		$('.fa-sync-alt').style.backgroundColor = "#fff"
+		$('.fa-sync-alt').style.border = "none"
 	}
 })
