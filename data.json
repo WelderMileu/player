@@ -26,5 +26,12 @@
 		"audio" : "Frank-and-Susan-MairoVergara.com_.mp3",
 		"content" : "I am Frank. I am an engineer. I am Canadian, and I am 30 years old. I am tall, I am not short. I am not an architect. And I am not American. My friend Susan is short. She is a veterinarian and she is from Argentina. She is not tall, and she is not a dentist. And she is not from England. Are you an engineer too? Oh, you are not an engineer, you are a pilot! You are not from Italy, right? And you are not from Portugal. Where are you from? You are from Argentina! I am glad to meet you. ",
 		"annotation" : "Frank_and_Susan"
+	},
+	{
+		"name" : "The important thing",
+		"image" : "06-The-important-thing-2-300x160.jpg",
+		"audio" : "The-important-thing-MairoVergara.com_.mp3",
+		"content" : "I think I like John. He is not very tall, but he is not very short either. He is not handsome, but he is not ugly. He is not very funny, but he is not very serious. He is not rich, and he is not poor. He is not very bright, but he is not stupid. The important thing is: he is not annoying, and he is not boring, and he is not petty, and he is not selfish. He surely is a good person! ",
+		"annotation" : "The_important_thing"
 	}
 ]
