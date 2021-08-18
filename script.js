@@ -7,6 +7,7 @@ let pathAnnotation = 'docs/';
 let initial = 0;
 let position;
 let playerPlay = false;
+let loop = false;
 
 let media = []
 
@@ -89,7 +90,12 @@ const actions = {
 			$('#time-audio').value = time;
 
 			if (dur === time) {
-				actions.next()
+				if (loop) {
+					console.log('loop')
+					actions.play()
+				} else {
+					actions.next()
+				}
 			}
 		}, 1000)
 	},
@@ -170,3 +176,15 @@ $('.anotations .english .icon').addEventListener('click', () => {
 		$('.anotations .english').style.zIndex = "3000"		
 	}	
 });
+
+$('.fa-undo').addEventListener('click', () => {
+	if (loop) {
+		loop = false;
+		$('.fa-undo').style.color = "#fff"
+		$('.fa-undo').style.border = "1px solid #4c4f50"
+	} else {
+		loop = true;
+		$('.fa-undo').style.color = "#68E1FD"
+		$('.fa-undo').style.border = "2px solid #68E1FD"
+	}
+})
