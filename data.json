@@ -33,5 +33,12 @@
 		"audio" : "The-important-thing-MairoVergara.com_.mp3",
 		"content" : "I think I like John. He is not very tall, but he is not very short either. He is not handsome, but he is not ugly. He is not very funny, but he is not very serious. He is not rich, and he is not poor. He is not very bright, but he is not stupid. The important thing is: he is not annoying, and he is not boring, and he is not petty, and he is not selfish. He surely is a good person! ",
 		"annotation" : "The_important_thing"
+	},
+	{
+		"name" : "Tell us about your friends",
+		"image" : "image-3-300x160.png",
+		"audio" : "Tell-us-about-your-friends-MairoVergara.com_-3.mp3",
+		"content" : "Conte-nos sobre seus amigos! Eles são engraçados? Eles são gentis? Eles são inteligentes? Eles são maldosos? Eles são enérgicos, ou eles são preguiçosos? Eles são calmos, ou eles são ansiosos? Eles são mandões? Eles são legais? Eles são professores? Eles são engenheiros? Eles são veterinários? Eles são estudantes? Eles são dos Estados Unidos? Eles são do Brasil? Nós somos curiosos demais? Desculpe-nos! ",
+		"annotation" : "Tell_us_about_your_friends"
 	}
 ]
